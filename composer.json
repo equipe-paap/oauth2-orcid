@@ -1,12 +1,11 @@
 {
-    "name": "mathieu-dumoutier/oauth2-orcid",
+    "name": "equipe-paap/oauth2-orcid",
     "description": "ORCID OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mathieu DUMOUTIER",
-            "email": "mathieu@dumoutier.fr",
-            "homepage": "https://mathieu.dumoutier.fr"
+            "name": "Equipe PAAP",
+            "email": "equipe.paap@gmail.com"
         }
     ],
     "keywords": [
@@ -26,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MathieuDumoutier\\OAuth2\\Client\\": "src/"
+            "Paap\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MathieuDumoutier\\OAuth2\\Client\\Test\\": "tests/"
+            "Paap\\OAuth2\\Client\\Test\\": "tests/"
         }
     }
 }
